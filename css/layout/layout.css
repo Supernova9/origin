@@ -60,4 +60,6 @@ html, body {
 	color: #fff;
 }
 
-.new {}
+.new {
+	float: left;
+}
