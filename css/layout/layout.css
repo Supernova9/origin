@@ -59,3 +59,7 @@ html, body {
 	background: #000;
 	color: #fff;
 }
+
+.new {
+	float: left;
+}
