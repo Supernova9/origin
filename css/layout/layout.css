@@ -1,0 +1,61 @@
+/* Layout definitions: Main Layout (begin) */
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/* Header */
+.l-header {
+	height: 100px;
+	background: #000;
+}
+
+.l-header_inner {
+	width: 960px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+/* Main Wrapper */
+.l-body {
+	width: 960px;
+	min-height: 100%;
+	margin: 0 auto -100px;
+}
+
+.l-empty {
+	height: 99px;
+}
+
+/* Main Content */
+.l-main {
+	width: 100%;
+	float: left;
+}
+
+.l-main_inner {
+	margin-right: 300px;
+}
+
+/* Sidebar */
+.l-sidebar {
+	float: left;
+	width: 300px;
+	margin-left: -300px;
+}
+
+.l-sidebar_inner {
+}
+
+/* Footer */
+.l-footer {
+	height: 100px;
+}
+
+.l-footer_inner {
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+	background: #000;
+	color: #fff;
+}
